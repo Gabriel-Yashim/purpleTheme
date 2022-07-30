@@ -1,0 +1,715 @@
+/* ####### Responsive design for mini desktops starts here ###### */
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+    .container {
+            width: 90%;
+            margin: auto;
+        }
+
+    /* start herosection and header  */
+
+    header nav .logo {
+        padding: .5rem 0 .4rem 1rem;
+    }
+
+    header nav ul li {
+        padding: 1.8rem 1rem 1.8rem 0;
+    }
+
+    /* ending herosection and header  */
+
+    /* starting section one  */
+
+    .one .grid {
+        left: 6rem;
+        bottom: -12rem;
+        grid-gap: 25px;
+        width: 80%;
+    }    
+
+    /* ending section one  */
+
+    /* starting section two  */
+    
+        .mandala1 {
+            width: 350px;
+            position: absolute;
+            z-index: -1;
+            left: -175px;
+            top: 110rem;
+            animation: name 1.9s infinite linear;
+            transition: .3s ease;
+            opacity: .4;
+        }
+
+        @keyframes name {
+            0% {
+                transform: rotate(0);
+            }
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+
+        .mandala2 {
+            width: 350px;
+            position: absolute;
+            z-index: -1;
+            right: -175px;
+            top: 208rem;
+            animation: name1 1.9s infinite linear;
+            transition: .3s ease;
+            opacity: .4;
+        }
+
+        @keyframes name1 {
+            0% {
+                transform: rotate(0);
+            }
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+    /* ending section two  */
+
+   /* starting section five  */
+    
+    .five .grid {
+        margin-top: 16%;
+    }
+
+    /* ending section five  */
+
+    /* starting section six  */
+
+    .six .grid .col img {
+        height: 180px;
+        width: 250px;
+    }
+    /* ending section six  */
+
+    /* starting section seven  */
+
+    .seven .grid .col .input>input {
+        width: 15.3rem;
+    }
+    /* ending section seven  */
+
+    /* starting footer  */
+
+    footer ul {
+        width: 40%;
+    }
+
+    /* ending footer  */
+}
+/* ####### Responsive design for Tablets starts here ###### */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+        body {
+                background-color: #fff;
+                width: 100%;
+                overflow-x: hidden;
+                line-height: 1.4;
+            }
+
+        h1 {
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 400;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: .75rem;
+            line-height: 1.7;
+            margin: 0.5rem 0;
+
+        }
+
+        .container{
+            width: 95%;
+        }
+        /* start herosection and header  */
+        .hero {
+            background-attachment:scroll;
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+        }
+    
+        header nav {
+            position: absolute;
+            top: 2rem;
+            left: 5%;
+            width: 90%;
+            height: 3.5rem;
+            /* position: sticky; */
+        }
+
+        header nav ul{
+            flex-direction: column;
+            background-color: #fff;
+            width: 16rem;
+            text-align: center;
+            margin-top: 2rem;
+            padding: 0rem 2rem;
+            z-index: 20;
+            right: -2.8rem;
+            position: absolute;
+            transform: translateY(-130%);
+        }
+
+        header nav ul.active{
+            transform: translateY(3%);
+        }
+
+        header nav .logo {
+            padding:.2rem 0 .4rem 1rem;
+            font-size: 2.3rem;
+        }
+
+        header #toggle{
+            display: block;
+            color: #000;
+            font-size: 2rem;
+            position: absolute;
+            right: 60px;
+            top: 40px;
+        }
+    
+        header nav li::after {
+            right: 50px;
+            transition: .5s ease;
+        }
+    
+        header nav li:hover::after {
+            width: 55%;
+        }
+    
+        .hero .lead {
+            margin-top: 6rem;
+        }
+    
+        .hero .lead h1 {
+            font-size: 2.5rem;
+            width: 100%;
+            margin: 0;
+        }
+    
+        /* ending herosection and header  */
+    
+        /* starting section one  */
+    
+        .one .grid {
+            left: 2.2rem;
+            bottom: 7rem;
+            width: 90%;
+            grid-gap: 15px;
+        }
+    
+        .one .grid i {
+            padding: 1.5rem 0;
+            font-size: 3.5rem;
+        }
+    
+        .one .grid .col {
+            width: 100%;
+            height: 300px;
+        }
+    
+        .one .one_more {
+            margin-top: 12rem;
+        }
+
+        .one .one_more .one_details h3 {
+            font-size: 1.2rem;
+        }
+    
+        .one .one_more .one_icon {
+            font-size: 12rem;
+        }
+    
+        /* ending section one  */
+    
+        /* starting section two  */
+        .two {
+            background-attachment: fixed;
+            height: 200vh;
+        }
+    
+        .two .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+            margin-bottom: 2rem;
+        }
+    
+        .two .grid .col {
+            width: 60%;
+            z-index: 10;
+            height: 15rem;
+            margin-left: 8rem;
+        }
+    
+        /* ending section two  */
+    
+        /* starting section three  */
+    
+        .three .grid {
+            grid-template-columns: 1fr;
+            margin-bottom: 4rem;
+            grid-gap: 25px;
+        }
+    
+        .three .grid .col {
+            width: 60%;
+            margin-left: 8rem;
+        }
+
+        .mandala1 {
+            top: 3500px;
+            display: none;
+        }
+
+        @keyframes name {
+            0% {
+                transform: rotate(0);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .mandala2 {
+            top: 4720px;
+            display: none;
+        }
+
+        @keyframes name1 {
+            0% {
+                transform: rotate(0);
+            }
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+        /* ending section three  */
+    
+        /* starting section four  */
+        
+        .four .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+        }
+    
+        .four .grid .col {
+            width: 60%;
+            margin-left: 8rem;
+            padding: .7rem .7rem 3rem .7rem;
+        }
+        /* ending section four  */
+    
+        /* starting section five  */
+        .five {
+            height: 50vh;
+        }
+    
+        /* ending section five  */
+    
+        /* starting section six  */
+        
+        .six .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+        }
+    
+        .six .grid .col {
+            margin-bottom: 2rem;
+        }
+        
+        .six .grid .col h4{
+            text-align: center;
+        }
+        /* ending section six  */
+    
+        /* starting section seven  */
+        
+        .seven .grid {
+            grid-template-columns:  1fr;
+            margin-bottom: 1rem;
+        }
+    
+        .seven .grid .col {
+            width: 80%;
+            margin: 0 0 2rem 4rem;
+        }
+
+        .seven .grid .col h4{
+            text-align: center;
+        }
+    
+        .seven .grid .col p {
+            padding: .5rem;
+            text-align: justify;
+        }
+
+        .seven .grid .col .input {
+            margin-bottom: .5rem;
+            display: flex;
+            justify-content: left;
+        }
+
+        .seven .grid .col .input input {
+            width: 13.75rem;
+        }
+
+        /* ending section seven  */
+    
+        /* starting footer  */
+      
+        footer ul {
+            width: 50%;
+        }
+    
+        /* ending footer  */
+}
+
+/* ####### Responsive design for Tablets ends here ###### */
+
+/* ####### Responsive design for mobile devices starts here ###### */
+
+@media screen and ( min-width: 300px) and (max-width: 599px) {
+    body {
+            background-color: #fff;
+            width: 100%;
+            overflow-x: hidden;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.4;
+        }
+    
+    h1 {
+        font-size: 2.5rem;
+            font-weight: 500;
+        }
+    
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
+    
+        h3 {
+            font-size: .8rem;
+            font-weight: 300;
+        }
+    
+        p {
+            font-size: .7rem;
+            line-height: 1.7;
+            margin: 0.5rem 0;
+    
+        }
+
+        a {
+            font-size: .75rem;
+        }
+    
+        .container {
+            width: 95%;
+        }
+        /* start herosection and header  */
+        .hero {
+            background-attachment: scroll;
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+        }
+
+        header nav {
+            position: absolute;
+            top: 2rem;
+            left: 8%;
+            width: 85%;
+            height: 3rem;
+        }
+
+        header nav ul {
+            flex-direction: column;
+            background-color: #fff;
+            width: 12rem;
+            position: absolute;
+            text-align: center;
+            margin-top: 2.3rem;
+            padding: 0rem 2rem;
+            z-index: 20;
+            right: -25px;
+            transform: translateY(-120%);
+        }
+
+        header nav ul.active {
+            transform: translateY(0%);
+        }
+
+        header nav ul li{
+            text-align: center;
+        }
+
+        header nav .logo {
+            font-size: 2rem;
+            padding: .25rem 0 .5rem 1rem;
+        }
+
+        header #toggle {
+            display: block;
+            color: #000;
+            font-size: 1.7rem;
+            position: absolute;
+            right: 45px;
+            top: 40px;
+        }
+
+        header #toggle i {
+            cursor: pointer;
+        }
+
+        header nav li::after {
+            right: 40px;
+            transition: .5s ease;
+        }
+
+        header nav li:hover::after {
+            width: 55%;
+        }
+    
+        .hero .lead {
+            margin-top: 4rem;
+        }
+    
+        .hero .lead h1 {
+            font-size: 1.7rem;
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .hero .lead a {
+            font-size: .7rem;
+        }
+    
+        /* ending herosection and header  */
+    
+        /* starting section one  */
+    
+        .one .grid {
+            grid-template-columns: 1fr;
+            left: 1.3rem;
+            bottom: -30rem;
+            width: 90%;
+            grid-gap: 25px;
+        }
+    
+        .one .one_more {
+            margin-top: 47rem;
+        }
+    
+        .one .one_more .row {
+            margin-bottom: 2rem;
+        }
+    
+        .one .one_more .one_details {
+            width: 70%;
+        }
+
+        .one .one_more .one_details h3{
+            text-align: left;
+        }
+
+        .one .one_more .one_icon {
+            width: 30%;
+            font-size: 6rem;
+        }
+    
+        /* ending section one  */
+    
+        /* starting section two  */
+        .two {
+            background-position: center;
+            height: 220vh;
+            padding: 2rem 0;
+        }
+
+        .two .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+            margin-left: 2rem;
+            margin-bottom: 0;
+        }
+    
+        /* ending section two  */
+    
+        /* starting section three  */
+        .three .lead{
+            margin-top: 1rem;  
+        }
+    
+        .three .grid {
+            grid-template-columns: 1fr;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            grid-gap: 25px;
+        }
+    
+        .three .grid .col .three_icon {
+            margin: 0;
+        }
+
+        .mandala1 {
+            /* width: 220px;
+            position: absolute;
+            z-index: 1;
+            left: -115px;
+            top: 3730px;
+            animation: name 1.9s infinite linear;
+            transition: .3s ease;
+            opacity: .4; */
+            display: none;
+        }
+    
+        /* @keyframes name {
+            0% {
+                transform: rotate(0);
+            }
+    
+            100% {
+                transform: rotate(-360deg);
+            }
+        } */
+    
+        .mandala2 {
+            /* width: 220px;
+            position: absolute;
+            z-index: 1;
+            right: -115px;
+            top: 4950px;
+            animation: name1 1.9s infinite linear;
+            transition: .3s ease;
+            opacity: .4; */
+            display: none;
+        }
+    
+        /* @keyframes name1 {
+            0% {
+                transform: rotate(0);
+            }
+    
+            100% {
+                transform: rotate(-360deg);
+            } 
+            
+        }*/
+        
+    
+        /* ending section three  */
+    
+        /* starting section four  */
+        .four .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+            margin-left: 2rem;
+            margin-bottom: 3rem;
+        }
+    
+        .four .grid .col {
+            width: 90%;
+        }
+    
+    
+        /* ending section four  */
+    
+        /* starting section five  */
+        .five {
+            height: 120vh;
+        }
+    
+        .five .grid {
+            margin-top: 3%;
+            grid-template-columns: 1fr;
+        }
+    
+        /* ending section five  */
+    
+        /* starting section six  */
+    
+        .six .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+        }
+
+        .six .grid .col h4{
+            text-align: center;
+        }
+    
+        /* ending section six  */
+    
+        /* starting section seven  */
+        .seven{
+            padding-bottom: 0;
+        }
+    
+        .seven h4 {
+            text-align: center;
+        }
+    
+        .seven p {
+            color: var(--second-color);
+        }
+    
+        .seven .grid {
+            grid-template-columns: 1fr;
+            margin-bottom: 5rem;
+            margin-left: 2.5rem;
+        }
+    
+        .seven .grid .col {
+            width: 90%;
+        }
+    
+        .seven .grid .col p,
+        h4 {
+            margin: .5rem 0 1rem 0;
+        }
+
+        .seven .grid .col .input {
+            margin-bottom: 0;
+            margin-top: .5rem;
+            display: block;
+        }
+    
+        .seven .grid .col .input input {
+            margin: 0 0 .5rem 0;
+            width: 18rem;
+        }
+
+        .seven .grid .col form textarea {
+            width: 18rem;
+        }
+
+        /* ending section seven  */
+    
+        /* starting footer  */
+    
+        footer ul {
+            width: 100%;
+            justify-content: center;
+        }
+        /* ending footer  */
+}
+
+/* ####### Responsive design for mobile devices ends here ###### */
