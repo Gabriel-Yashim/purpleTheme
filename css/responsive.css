@@ -510,7 +510,7 @@
         .one .grid {
             grid-template-columns: 1fr;
             left: 1.3rem;
-            bottom: -30rem;
+            bottom: -32rem;
             width: 90%;
             grid-gap: 25px;
         }
