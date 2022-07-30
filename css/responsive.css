@@ -510,13 +510,13 @@
         .one .grid {
             grid-template-columns: 1fr;
             left: 1.3rem;
-            bottom: -38rem;
+            top: 25rem;
             width: 90%;
             grid-gap: 25px;
         }
     
         .one .one_more {
-            margin-top: 50rem;
+            margin-top: 47rem;
         }
     
         .one .one_more .row {
