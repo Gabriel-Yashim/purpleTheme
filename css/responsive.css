@@ -526,7 +526,7 @@
         .one .grid {
             grid-template-columns: 1fr;
             left: 1.3rem;
-            top: 28rem;
+            top: 25rem;
             width: 90%;
             grid-gap: 25px;
         }
