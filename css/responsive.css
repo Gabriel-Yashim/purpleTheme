@@ -459,7 +459,7 @@
 
         header nav ul {
             flex-direction: column;
-            background-color: #fff;
+            background-color: var(--background-color);
             width: 12rem;
             position: absolute;
             text-align: center;
@@ -468,6 +468,7 @@
             z-index: 20;
             right: -25px;
             transform: translateY(-120%);
+            transition: .5s ease-out;
         }
 
         header nav ul.active {
@@ -532,7 +533,7 @@
         }
     
         .one .one_more {
-            margin-top: 45rem;
+            margin-top: 48rem;
         }
     
         .one .one_more .row {
