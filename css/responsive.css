@@ -123,12 +123,12 @@
         }
 
         h3 {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             font-weight: 300;
         }
 
         p {
-            font-size: .75rem;
+            font-size: .85rem;
             line-height: 1.7;
             margin: 0.5rem 0;
 
@@ -195,7 +195,7 @@
         }
     
         .hero .lead {
-            margin-top: 6rem;
+            margin-top: 5rem;
         }
     
         .hero .lead h1 {
@@ -209,24 +209,35 @@
         /* starting section one  */
     
         .one .grid {
-            left: 2.2rem;
+            left: 5.2rem;
             bottom: 7rem;
             width: 90%;
+            top: 35rem;
+            grid-template-columns: 1fr;
             grid-gap: 15px;
         }
     
         .one .grid i {
             padding: 1.5rem 0;
-            font-size: 3.5rem;
+            font-size: 5.5rem;
         }
     
         .one .grid .col {
-            width: 100%;
-            height: 300px;
+            width: 80%;
+        }
+
+        .one .one_more .row{
+            flex-direction: column;
+            margin-bottom: 1.5rem;
         }
     
         .one .one_more {
-            margin-top: 12rem;
+            margin-top: 40rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .one .one_more .one_details {
+            width: 80%;
         }
 
         .one .one_more .one_details h3 {
@@ -234,7 +245,8 @@
         }
     
         .one .one_more .one_icon {
-            font-size: 12rem;
+            font-size: 15rem;
+            width: 50%;
         }
     
         /* ending section one  */
@@ -274,8 +286,8 @@
         }
 
         .mandala1 {
-            top: 3500px;
-            display: none;
+            top: 2430px;
+            /* display: none; */
         }
 
         @keyframes name {
@@ -289,8 +301,8 @@
         }
 
         .mandala2 {
-            top: 4720px;
-            display: none;
+            top: 5755px;
+            /* display: none; */
         }
 
         @keyframes name1 {
@@ -320,7 +332,11 @@
     
         /* starting section five  */
         .five {
-            height: 50vh;
+            height: max-content;
+        }
+
+        .five .grid{
+            grid-template-columns: 1fr;
         }
     
         /* ending section five  */
@@ -510,21 +526,22 @@
         .one .grid {
             grid-template-columns: 1fr;
             left: 1.3rem;
-            top: 23rem;
+            top: 28rem;
             width: 90%;
             grid-gap: 25px;
         }
     
         .one .one_more {
-            margin-top: 47rem;
+            margin-top: 45rem;
         }
     
         .one .one_more .row {
+            flex-direction: column;
             margin-bottom: 2rem;
         }
     
         .one .one_more .one_details {
-            width: 70%;
+            width: 80%;
         }
 
         .one .one_more .one_details h3{
@@ -532,8 +549,8 @@
         }
 
         .one .one_more .one_icon {
-            width: 30%;
-            font-size: 6rem;
+            width: 50%;
+            font-size: 10rem;
         }
     
         /* ending section one  */
@@ -541,7 +558,7 @@
         /* starting section two  */
         .two {
             background-position: center;
-            height: 240vh;
+            height: max-content;
             padding: 2rem 0;
         }
 
@@ -549,7 +566,7 @@
             grid-template-columns: 1fr;
             grid-gap: 25px;
             margin-left: 2rem;
-            margin-bottom: 0;
+            margin-bottom: 1rem;
         }
     
         /* ending section two  */
@@ -635,7 +652,7 @@
     
         /* starting section five  */
         .five {
-            height: 120vh;
+            height: max-content;
         }
     
         .five .grid {
@@ -660,7 +677,7 @@
     
         /* starting section seven  */
         .seven{
-            padding-bottom: 0;
+            padding-bottom: .5rem;
         }
     
         .seven h4 {
