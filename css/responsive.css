@@ -165,6 +165,7 @@
             right: -2.8rem;
             position: absolute;
             transform: translateY(-130%);
+            transition: .5s ease-out;
         }
 
         header nav ul.active{
@@ -232,7 +233,7 @@
         }
     
         .one .one_more {
-            margin-top: 40rem;
+            margin-top: 43rem;
             margin-bottom: 1.5rem;
         }
 
@@ -286,7 +287,7 @@
         }
 
         .mandala1 {
-            top: 2430px;
+            top: 2520px;
             /* display: none; */
         }
 
@@ -301,7 +302,7 @@
         }
 
         .mandala2 {
-            top: 5755px;
+            top: 5825px;
             /* display: none; */
         }
 
